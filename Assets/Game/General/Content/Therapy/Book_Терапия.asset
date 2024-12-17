@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: .Dialogue.Flowers_Help
   m_EditorClassIdentifier: 
   id: Dialogue.Flowers_Help
-  value: 0
+  value: 1
 --- !u!114 &-606181034641459468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: .Music.main_theme
   m_EditorClassIdentifier: 
   id: Music.main_theme
-  value: 0
+  value: 1
 --- !u!114 &9090684655370528107
 MonoBehaviour:
   m_ObjectHideFlags: 0

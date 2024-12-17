@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8701715656415889820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12de432173e54e5ba0b7a8f03239548e, type: 3}
+  m_Name: node.Condition.0a00a2cc
+  m_EditorClassIdentifier: 
+  id: 0a00a2cc88b9b184a96dc9431f01fc15
+  position: {x: 350, y: 1612.0002}
+  nextNodes:
+  - 33f789c6179b6c64c8ec4b6f9851c48b
+  - 7337468f3058e0d44b97b14ee41fdb2f
+  rawCondition: Places.Visited_Library == true;
 --- !u!114 &-8692924895342547681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,6 +58,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   executeOnce: 0
   rawExpression: Music.main_theme = true;
+--- !u!114 &-8474464267284770111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e71fad76354cc4b9340ec2a2558942, type: 3}
+  m_Name: node.Choice.33f789c6
+  m_EditorClassIdentifier: 
+  id: 33f789c6179b6c64c8ec4b6f9851c48b
+  position: {x: 1470.0002, y: 1256.6854}
+  nextNodes:
+  - ca40e119b676e914fb6e21b1e5207db5
+  actions: []
+  character: {fileID: 11400000, guid: a64c77a4be164fb45930c7442b2d1170, type: 2}
+  emotion:
+    rid: -2
+  localized: "\u041A\u0443\u0434\u0430 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043C\u0441\u044F?"
+  choices:
+  - localizedText: "\u0426\u0432\u0435\u0442\u043E\u0447\u043D\u044B\u0439 \u043C\u0430\u0433\u0430\u0437\u0438\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!114 &-8176137970598782629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,6 +104,24 @@ MonoBehaviour:
   - c0507d0f64fd4e94bac58de5fa500a3d
   actions:
   - {fileID: -8634386908670238674}
+--- !u!114 &-7779979372461512645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12de432173e54e5ba0b7a8f03239548e, type: 3}
+  m_Name: node.Condition.7337468f
+  m_EditorClassIdentifier: 
+  id: 7337468f3058e0d44b97b14ee41fdb2f
+  position: {x: 845.07574, y: 1727.7211}
+  nextNodes:
+  - cba37584dc2719441a80d25cddd24fc5
+  - c0507d0f64fd4e94bac58de5fa500a3d
+  rawCondition: Places.Visited_Flowers == true;
 --- !u!114 &-7632326727045405134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +211,7 @@ MonoBehaviour:
   id: eb2c9acf243cd5f45af13836c8b1a245
   position: {x: -461.84357, y: 549}
   nextNodes:
-  - 
+  - 445119ec4dc70d84a80138b545deb6a6
   actions:
   - {fileID: -5607543930123971326}
 --- !u!114 &-5868176513682170276
@@ -354,6 +418,10 @@ MonoBehaviour:
   - {fileID: 4746114354588641903}
   - {fileID: -6765594449938843833}
   - {fileID: 644078876895377456}
+  - {fileID: -8474464267284770111}
+  - {fileID: 3815298772404536506}
+  - {fileID: -8701715656415889820}
+  - {fileID: -7779979372461512645}
 --- !u!114 &644078876895377456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +435,7 @@ MonoBehaviour:
   m_Name: node.Active.445119ec
   m_EditorClassIdentifier: 
   id: 445119ec4dc70d84a80138b545deb6a6
-  position: {x: -219.05783, y: 895.6961}
+  position: {x: -15.574997, y: 345.62054}
   nextNodes:
   - e7d80d524f9b225428698ac9fc3ff2c7
   actions:
@@ -487,6 +555,34 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &3815298772404536506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e71fad76354cc4b9340ec2a2558942, type: 3}
+  m_Name: node.Choice.cba37584
+  m_EditorClassIdentifier: 
+  id: cba37584dc2719441a80d25cddd24fc5
+  position: {x: 1470.0002, y: 1685.3265}
+  nextNodes:
+  - 284191f03afc828459e2cfd25657ef02
+  actions: []
+  character: {fileID: 11400000, guid: a64c77a4be164fb45930c7442b2d1170, type: 2}
+  emotion:
+    rid: -2
+  localized: "\u041A\u0443\u0434\u0430 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043C\u0441\u044F?"
+  choices:
+  - localizedText: "\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430"
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!114 &4205486328695153418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -565,7 +661,7 @@ MonoBehaviour:
   id: 7670a4a8c85f2c54a928d0b6bdf21022
   position: {x: 700, y: 770}
   nextNodes:
-  - c0507d0f64fd4e94bac58de5fa500a3d
+  - 0a00a2cc88b9b184a96dc9431f01fc15
   actions: []
   character: {fileID: 11400000, guid: a64c77a4be164fb45930c7442b2d1170, type: 2}
   emotion:
