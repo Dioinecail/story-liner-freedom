@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8853266552832152805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.38075675
+  m_EditorClassIdentifier: 
+  id: 3807567542b737d4ab64a7cd139eb97e
+  position: {x: 2998.8, y: 770}
+  nextNodes:
+  - e1fd86b45a4b5a14a9ff4ed8b84501f6
+  chapter: {fileID: 11400000, guid: be9c31e5727ac014b9bc9bf093a679dc, type: 2}
+--- !u!114 &-7665605572099372682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.0e67c7f1
+  m_EditorClassIdentifier: 
+  id: 0e67c7f19ce44ae4bbc0745c6d457682
+  position: {x: 1528.7999, y: 770}
+  nextNodes:
+  - 1046b43f7fc550e44a3a0bb5d8c8f9f7
+  chapter: {fileID: 11400000, guid: d05fac6259669b542a578137f4719b75, type: 2}
+--- !u!114 &-6885894868000361753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d3f003fe7946c39819a92296140114, type: 3}
+  m_Name: node.Exit.e1fd86b4
+  m_EditorClassIdentifier: 
+  id: e1fd86b45a4b5a14a9ff4ed8b84501f6
+  position: {x: 3498.8, y: 770}
+  nextNodes: []
+  tag: 
+  TargetNode: 
+--- !u!114 &-5897126803556040606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.dcb88bc2
+  m_EditorClassIdentifier: 
+  id: dcb88bc2ab13e7d4794e08d40ef1d935
+  position: {x: 1003.8, y: 770}
+  nextNodes:
+  - 0e67c7f19ce44ae4bbc0745c6d457682
+  chapter: {fileID: 11400000, guid: 0306b51b56cabc84c8d82a2e5ba6b919, type: 2}
+--- !u!114 &-4539270341139340260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.1046b43f
+  m_EditorClassIdentifier: 
+  id: 1046b43f7fc550e44a3a0bb5d8c8f9f7
+  position: {x: 2018.7999, y: 770}
+  nextNodes:
+  - c8db2559563ffdc4896e34f3a1173b4c
+  chapter: {fileID: 11400000, guid: 733486f7012256440945fe5e83118101, type: 2}
+--- !u!114 &-587242622913338803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.cf7a21b4
+  m_EditorClassIdentifier: 
+  id: cf7a21b40e003424c88e832e88ec1bdf
+  position: {x: 93.799995, y: 770}
+  nextNodes:
+  - ab07f4eea993ce742be9c4c005b9dfbd
+  chapter: {fileID: 11400000, guid: 34bb1893c9b7a0445991d362cab980ae, type: 2}
+--- !u!114 &-568582636036073218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.ab07f4ee
+  m_EditorClassIdentifier: 
+  id: ab07f4eea993ce742be9c4c005b9dfbd
+  position: {x: 548.8, y: 770}
+  nextNodes:
+  - dcb88bc2ab13e7d4794e08d40ef1d935
+  chapter: {fileID: 11400000, guid: 338a9c7fafa26ef4aa07aa527d4ee8ec, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c243d6803f4918bd02822bc04dd036, type: 3}
+  m_Name: Chapter_Episode 1_6b5452
+  m_EditorClassIdentifier: 
+  book: {fileID: 11400000, guid: 3e2f88bf3d87d9e4eb73cf3118013d7f, type: 2}
+  chapterName: Episode 1
+  startNodeID: b3392d397564abd43978f31f8638a9e8
+  parentChapter: {fileID: 0}
+  nodes:
+  - {fileID: -587242622913338803}
+  - {fileID: -568582636036073218}
+  - {fileID: -5897126803556040606}
+  - {fileID: -4539270341139340260}
+  - {fileID: 7754650619670634156}
+  - {fileID: -8853266552832152805}
+  - {fileID: -7665605572099372682}
+  - {fileID: 8938666341994027362}
+  - {fileID: -6885894868000361753}
+--- !u!114 &7754650619670634156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.c8db2559
+  m_EditorClassIdentifier: 
+  id: c8db2559563ffdc4896e34f3a1173b4c
+  position: {x: 2508.8, y: 770}
+  nextNodes:
+  - 3807567542b737d4ab64a7cd139eb97e
+  chapter: {fileID: 11400000, guid: 52f0490984689e345835dfa53c66580a, type: 2}
+--- !u!114 &8938666341994027362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49251e6351614c42a425c6b0c3fd897a, type: 3}
+  m_Name: node.Entry.b3392d39
+  m_EditorClassIdentifier: 
+  id: b3392d397564abd43978f31f8638a9e8
+  position: {x: -406.2, y: 770}
+  nextNodes:
+  - cf7a21b40e003424c88e832e88ec1bdf
