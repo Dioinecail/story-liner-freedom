@@ -613,6 +613,7 @@ MonoBehaviour:
   - {fileID: -4214978968963875272}
   - {fileID: 1746531530064201609}
   - {fileID: 8349105381032713643}
+  - {fileID: 1507029154242960231}
 --- !u!114 &1002131355702609014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +632,24 @@ MonoBehaviour:
   - b4f2b45a1d1388941ab2a375fd9af234
   - 4d2dfb8fdd1286046b5fa2c8d89095ce
   rawCondition: Choices.AskDavidForSilence == true;
+--- !u!114 &1507029154242960231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbf2566a1734af290e22326dd834c0d, type: 3}
+  m_Name: node.Active.615d649b
+  m_EditorClassIdentifier: 
+  id: 615d649bb624b47499defb1032d4ff42
+  position: {x: -3551.418, y: 955.14667}
+  nextNodes:
+  - 2d1a2930befbffd4b826c1ecfb6bb114
+  actions:
+  - {fileID: 5593536344292903912}
 --- !u!114 &1722093829200006941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,7 +683,7 @@ MonoBehaviour:
   id: 48910646796a73b4190db85776239162
   position: {x: -3860, y: 770}
   nextNodes:
-  - 2d1a2930befbffd4b826c1ecfb6bb114
+  - 615d649bb624b47499defb1032d4ff42
 --- !u!114 &1844316753768192138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,6 +963,20 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &5593536344292903912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390d353374d46269864ac4f65afc508, type: 3}
+  m_Name: node.615d64.Active.Background.0
+  m_EditorClassIdentifier: 
+  executeOnce: 0
+  sprite: {fileID: 21300000, guid: 13d2fdde999921c48b20d6b2ad262255, type: 3}
 --- !u!114 &5849603907630328386
 MonoBehaviour:
   m_ObjectHideFlags: 0

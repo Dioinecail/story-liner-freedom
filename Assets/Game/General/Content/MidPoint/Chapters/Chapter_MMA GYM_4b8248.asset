@@ -1246,7 +1246,7 @@ MonoBehaviour:
   id: 17277069db555734898c9e096c417743
   position: {x: -7887.8, y: 1748.6}
   nextNodes:
-  - 831dbe6b779b9084fb967583d8cf3e63
+  - dedd6b64a75936c498d8d8842be6d624
 --- !u!114 &-52279896572626028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,6 +1402,7 @@ MonoBehaviour:
   - {fileID: 4017336690959947649}
   - {fileID: -551252230002681718}
   - {fileID: -7234468218637425162}
+  - {fileID: 7234046267551252845}
 --- !u!114 &36305995912561414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2134,6 +2135,20 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &5687476238045122155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390d353374d46269864ac4f65afc508, type: 3}
+  m_Name: node.dedd6b.Active.Background.0
+  m_EditorClassIdentifier: 
+  executeOnce: 0
+  sprite: {fileID: 21300000, guid: 62800ca26cf75c34d95f4c1fa7b98561, type: 3}
 --- !u!114 &5814718477046228344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2416,6 +2431,24 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &7234046267551252845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbf2566a1734af290e22326dd834c0d, type: 3}
+  m_Name: node.Active.dedd6b64
+  m_EditorClassIdentifier: 
+  id: dedd6b64a75936c498d8d8842be6d624
+  position: {x: -7650.0894, y: 1982.4968}
+  nextNodes:
+  - 831dbe6b779b9084fb967583d8cf3e63
+  actions:
+  - {fileID: 5687476238045122155}
 --- !u!114 &8083530158659222425
 MonoBehaviour:
   m_ObjectHideFlags: 0
