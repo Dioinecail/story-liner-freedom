@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9cb9112ee52f284d8b55def3af857d1, type: 3}
-  m_Name: Character_Journalist female
+  m_Name: "Character_\u041F\u0430\u0442\u043E\u043B\u043E\u0433\u043E\u0430\u043D\u0430\u0442\u043E\u043C"
   m_EditorClassIdentifier: 
-  characterName: Journalist female
-  characterIcon: {fileID: 21300000, guid: 42bf46eb0ce5a4140838668878f05853, type: 3}
+  characterName: "\u041F\u0430\u0442\u043E\u043B\u043E\u0433\u043E\u0430\u043D\u0430\u0442\u043E\u043C"
+  characterIcon: {fileID: 21300000, guid: b4f4d02b76dd52a40a078dbf7a2dff65, type: 3}
   isMainCharacter: 0
   emotions: []

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8794196955418524206
+--- !u!114 &-8309765841399110316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Choices.WrestleInFinal_1_7
   value: 0
---- !u!114 &-8266196228376309345
+--- !u!114 &-7930990082755515830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24,11 +24,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.Punch
+  m_Name: .Sounds.FightGong
   m_EditorClassIdentifier: 
-  id: Sounds.Punch
+  id: Sounds.FightGong
   value: 0
---- !u!114 &-7163982870768483956
+--- !u!114 &-7569468576462815010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38,109 +38,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.In_fights_sounds
+  m_Name: .Sounds.Peopletalks
   m_EditorClassIdentifier: 
-  id: Sounds.In_fights_sounds
+  id: Sounds.Peopletalks
   value: 0
---- !u!114 &-6937568172111892878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.GoForward_1_7_3
-  m_EditorClassIdentifier: 
-  id: Choices.GoForward_1_7_3
-  value: 0
---- !u!114 &-6323248801660510784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.PunchCombo3
-  m_EditorClassIdentifier: 
-  id: Sounds.PunchCombo3
-  value: 0
---- !u!114 &-5947103422895555570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.Trauma_revealed_1_1
-  m_EditorClassIdentifier: 
-  id: Choices.Trauma_revealed_1_1
-  value: 0
---- !u!114 &-5831160846096634188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.ArenaBackground
-  m_EditorClassIdentifier: 
-  id: Sounds.ArenaBackground
-  value: 0
---- !u!114 &-4483391928271621224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.GoForward_1_7_2
-  m_EditorClassIdentifier: 
-  id: Choices.GoForward_1_7_2
-  value: 0
---- !u!114 &-4183839631919650299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.Press
-  m_EditorClassIdentifier: 
-  id: Sounds.Press
-  value: 0
---- !u!114 &-3820341038368502144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.StartLowKicks_1_7
-  m_EditorClassIdentifier: 
-  id: Choices.StartLowKicks_1_7
-  value: 0
---- !u!114 &-2907400017000188672
+--- !u!114 &-6828328039103258482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,35 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Sounds.GYM
   value: 0
---- !u!114 &-2473154219904118685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Music.Drama
-  m_EditorClassIdentifier: 
-  id: Music.Drama
-  value: 0
---- !u!114 &-2076771596498524890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.Agree_to_stand_and_bang
-  m_EditorClassIdentifier: 
-  id: Choices.Agree_to_stand_and_bang
-  value: 0
---- !u!114 &-2060526819933404327
+--- !u!114 &-6688246959724724272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,98 +69,39 @@ MonoBehaviour:
   m_Name: .settings.variables
   m_EditorClassIdentifier: 
   _variables:
-  - {fileID: -5947103422895555570}
-  - {fileID: 4930346279733788588}
-  - {fileID: -2076771596498524890}
-  - {fileID: 741328661167065217}
-  - {fileID: 4334229798697545095}
-  - {fileID: -1181321036027666431}
-  - {fileID: -4483391928271621224}
-  - {fileID: -3820341038368502144}
-  - {fileID: -6937568172111892878}
-  - {fileID: -8794196955418524206}
-  - {fileID: -2473154219904118685}
-  - {fileID: 7689624073165386747}
-  - {fileID: -164786648246791233}
-  - {fileID: 7428202866251759761}
-  - {fileID: 5386447203858438061}
-  - {fileID: -2907400017000188672}
-  - {fileID: 3444329566897391004}
-  - {fileID: -8266196228376309345}
-  - {fileID: 1729195701500343556}
-  - {fileID: -7163982870768483956}
-  - {fileID: -4183839631919650299}
-  - {fileID: 6303625489536769511}
-  - {fileID: 2135697638950089684}
-  - {fileID: 6637857108541376943}
-  - {fileID: 5328292198314712194}
-  - {fileID: -6323248801660510784}
-  - {fileID: -5831160846096634188}
-  - {fileID: 2552136974715578706}
-  - {fileID: -50371247566212481}
-  - {fileID: 723533091683505425}
-  - {fileID: 8092176452677318377}
-  - {fileID: 6181821061120943815}
---- !u!114 &-1181321036027666431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.GoForward_1_7_1
-  m_EditorClassIdentifier: 
-  id: Choices.GoForward_1_7_1
-  value: 0
---- !u!114 &-164786648246791233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Music.Embient
-  m_EditorClassIdentifier: 
-  id: Music.Embient
-  value: 1
---- !u!114 &-50371247566212481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 202a05a8aa798a648b166e7424a27f64, type: 3}
-  m_Name: .Relations.LukeRelation
-  m_EditorClassIdentifier: 
-  id: Relations.LukeRelation
-  value: 0
-  minValue: 0
-  maxValue: 100
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 410617834cbb469684228e563b4fa39c, type: 3}
-  m_Name: Book_Past the MidPoint
-  m_EditorClassIdentifier: 
-  bookName: Past the MidPoint
-  characters: []
-  variables: {fileID: -2060526819933404327}
---- !u!114 &723533091683505425
+  - {fileID: 2365192743743435508}
+  - {fileID: -2512918361690043667}
+  - {fileID: 5544631652039725371}
+  - {fileID: -4033823430751540566}
+  - {fileID: 721340540164592844}
+  - {fileID: 154968918104098277}
+  - {fileID: -3319144065735468186}
+  - {fileID: 7485890468607153035}
+  - {fileID: 2207789438852346342}
+  - {fileID: -8309765841399110316}
+  - {fileID: -5514503191198259932}
+  - {fileID: -4302793568733114206}
+  - {fileID: 1575945864356136395}
+  - {fileID: 783441610017491165}
+  - {fileID: -5015532428064436450}
+  - {fileID: -6828328039103258482}
+  - {fileID: -1597438985072144744}
+  - {fileID: -828941188753530661}
+  - {fileID: 2444325354733322065}
+  - {fileID: 8264336843427701533}
+  - {fileID: -712273406444551050}
+  - {fileID: -2333692040553928357}
+  - {fileID: -7569468576462815010}
+  - {fileID: -133366124794279628}
+  - {fileID: -4879035336337709346}
+  - {fileID: 5129771648864189723}
+  - {fileID: -623082986985205393}
+  - {fileID: -7930990082755515830}
+  - {fileID: -1429797190773149183}
+  - {fileID: -6545992827257960303}
+  - {fileID: 9141621584344611536}
+  - {fileID: -2146109814653827129}
+--- !u!114 &-6545992827257960303
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,7 +117,7 @@ MonoBehaviour:
   value: 0
   minValue: 0
   maxValue: 100
---- !u!114 &741328661167065217
+--- !u!114 &-5514503191198259932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -312,109 +127,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.CancelVacation
+  m_Name: .Music.Drama
   m_EditorClassIdentifier: 
-  id: Choices.CancelVacation
+  id: Music.Drama
   value: 0
---- !u!114 &1729195701500343556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.Locker_room_sounds
-  m_EditorClassIdentifier: 
-  id: Sounds.Locker_room_sounds
-  value: 0
---- !u!114 &2135697638950089684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.Peopletalks
-  m_EditorClassIdentifier: 
-  id: Sounds.Peopletalks
-  value: 0
---- !u!114 &2552136974715578706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.FightGong
-  m_EditorClassIdentifier: 
-  id: Sounds.FightGong
-  value: 0
---- !u!114 &3444329566897391004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.Open_door
-  m_EditorClassIdentifier: 
-  id: Sounds.Open_door
-  value: 0
---- !u!114 &4334229798697545095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.WannafightwithVoodoo
-  m_EditorClassIdentifier: 
-  id: Choices.WannafightwithVoodoo
-  value: 0
---- !u!114 &4930346279733788588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Choices.AskDavidForSilence
-  m_EditorClassIdentifier: 
-  id: Choices.AskDavidForSilence
-  value: 0
---- !u!114 &5328292198314712194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.PunchCombo2
-  m_EditorClassIdentifier: 
-  id: Sounds.PunchCombo2
-  value: 0
---- !u!114 &5386447203858438061
+--- !u!114 &-5015532428064436450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -428,7 +145,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Sounds.Crowd
   value: 0
---- !u!114 &6181821061120943815
+--- !u!114 &-4879035336337709346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.PunchCombo2
+  m_EditorClassIdentifier: 
+  id: Sounds.PunchCombo2
+  value: 0
+--- !u!114 &-4302793568733114206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Music.Fight
+  m_EditorClassIdentifier: 
+  id: Music.Fight
+  value: 0
+--- !u!114 &-4033823430751540566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.CancelVacation
+  m_EditorClassIdentifier: 
+  id: Choices.CancelVacation
+  value: 0
+--- !u!114 &-3319144065735468186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.GoForward_1_7_2
+  m_EditorClassIdentifier: 
+  id: Choices.GoForward_1_7_2
+  value: 0
+--- !u!114 &-2512918361690043667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.AskDavidForSilence
+  m_EditorClassIdentifier: 
+  id: Choices.AskDavidForSilence
+  value: 0
+--- !u!114 &-2333692040553928357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.LockerPunch
+  m_EditorClassIdentifier: 
+  id: Sounds.LockerPunch
+  value: 0
+--- !u!114 &-2146109814653827129
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,7 +245,7 @@ MonoBehaviour:
   value: 0
   minValue: 0
   maxValue: 100
---- !u!114 &6303625489536769511
+--- !u!114 &-1597438985072144744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -454,11 +255,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Sounds.LockerPunch
+  m_Name: .Sounds.Open_door
   m_EditorClassIdentifier: 
-  id: Sounds.LockerPunch
+  id: Sounds.Open_door
   value: 0
---- !u!114 &6637857108541376943
+--- !u!114 &-1429797190773149183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202a05a8aa798a648b166e7424a27f64, type: 3}
+  m_Name: .Relations.LukeRelation
+  m_EditorClassIdentifier: 
+  id: Relations.LukeRelation
+  value: 0
+  minValue: 0
+  maxValue: 100
+--- !u!114 &-828941188753530661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.Punch
+  m_EditorClassIdentifier: 
+  id: Sounds.Punch
+  value: 0
+--- !u!114 &-712273406444551050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.Press
+  m_EditorClassIdentifier: 
+  id: Sounds.Press
+  value: 0
+--- !u!114 &-623082986985205393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.ArenaBackground
+  m_EditorClassIdentifier: 
+  id: Sounds.ArenaBackground
+  value: 0
+--- !u!114 &-133366124794279628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,7 +331,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Sounds.PunchCombo1
   value: 0
---- !u!114 &7428202866251759761
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410617834cbb469684228e563b4fa39c, type: 3}
+  m_Name: Book_Past the MidPoint
+  m_EditorClassIdentifier: 
+  bookName: Past the MidPoint
+  characters: []
+  variables: {fileID: -6688246959724724272}
+--- !u!114 &154968918104098277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.GoForward_1_7_1
+  m_EditorClassIdentifier: 
+  id: Choices.GoForward_1_7_1
+  value: 0
+--- !u!114 &721340540164592844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.WannafightwithVoodoo
+  m_EditorClassIdentifier: 
+  id: Choices.WannafightwithVoodoo
+  value: 0
+--- !u!114 &783441610017491165
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,7 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Sounds.Steps
   value: 0
---- !u!114 &7689624073165386747
+--- !u!114 &1575945864356136395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -496,11 +398,109 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
-  m_Name: .Music.Fight
+  m_Name: .Music.Embient
   m_EditorClassIdentifier: 
-  id: Music.Fight
+  id: Music.Embient
+  value: 1
+--- !u!114 &2207789438852346342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.GoForward_1_7_3
+  m_EditorClassIdentifier: 
+  id: Choices.GoForward_1_7_3
   value: 0
---- !u!114 &8092176452677318377
+--- !u!114 &2365192743743435508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.Trauma_revealed_1_1
+  m_EditorClassIdentifier: 
+  id: Choices.Trauma_revealed_1_1
+  value: 0
+--- !u!114 &2444325354733322065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.Locker_room_sounds
+  m_EditorClassIdentifier: 
+  id: Sounds.Locker_room_sounds
+  value: 0
+--- !u!114 &5129771648864189723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.PunchCombo3
+  m_EditorClassIdentifier: 
+  id: Sounds.PunchCombo3
+  value: 0
+--- !u!114 &5544631652039725371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.Agree_to_stand_and_bang
+  m_EditorClassIdentifier: 
+  id: Choices.Agree_to_stand_and_bang
+  value: 0
+--- !u!114 &7485890468607153035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Choices.StartLowKicks_1_7
+  m_EditorClassIdentifier: 
+  id: Choices.StartLowKicks_1_7
+  value: 0
+--- !u!114 &8264336843427701533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c45875866e60441a900704b735899a, type: 3}
+  m_Name: .Sounds.In_fights_sounds
+  m_EditorClassIdentifier: 
+  id: Sounds.In_fights_sounds
+  value: 0
+--- !u!114 &9141621584344611536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

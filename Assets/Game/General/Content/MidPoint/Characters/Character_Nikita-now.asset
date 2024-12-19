@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Character_Nikita-now
   m_EditorClassIdentifier: 
   characterName: Nikita-now
-  characterIcon: {fileID: 0}
+  characterIcon: {fileID: 21300000, guid: 2c56d3e8e76c3864285121c756892c4e, type: 3}
   isMainCharacter: 0
   emotions: []

@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6920406826131062100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d3f003fe7946c39819a92296140114, type: 3}
+  m_Name: node.Exit.d7e495be
+  m_EditorClassIdentifier: 
+  id: d7e495be1c50a934e94556b2a35857aa
+  position: {x: 3498.8, y: 770}
+  nextNodes: []
+  tag: 
+  TargetNode: 
+--- !u!114 &-6676446176441000221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.bedfe83f
+  m_EditorClassIdentifier: 
+  id: bedfe83f3ad18ed4894b10d152dec504
+  position: {x: 2998.8, y: 770}
+  nextNodes:
+  - d7e495be1c50a934e94556b2a35857aa
+  chapter: {fileID: 11400000, guid: 5a72a78434dd19941b04569a75afb487, type: 2}
+--- !u!114 &-5852766635431758375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.21a1f1cc
+  m_EditorClassIdentifier: 
+  id: 21a1f1cced102f24d8fd9529f8550ab9
+  position: {x: 93.799995, y: 770}
+  nextNodes:
+  - 88034d642498a2449a5d8c9b6ecf02dc
+  chapter: {fileID: 11400000, guid: caed1427f986fcc4a8be8730f67c1ed6, type: 2}
+--- !u!114 &-3766148943811930247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.15942e5c
+  m_EditorClassIdentifier: 
+  id: 15942e5cd0b9a1f4dbcf1f4c4ca203b1
+  position: {x: 1029.9998, y: 769.9998}
+  nextNodes:
+  - f3b44411496e233479ebb9a9f1a4fb3c
+  chapter: {fileID: 11400000, guid: dc29a69659be28849aa258e69629860c, type: 2}
+--- !u!114 &-1603570309471399632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.3140cad0
+  m_EditorClassIdentifier: 
+  id: 3140cad0f81b6b340850d64cb7bb084d
+  position: {x: 2543.8, y: 770}
+  nextNodes:
+  - bedfe83f3ad18ed4894b10d152dec504
+  chapter: {fileID: 11400000, guid: 094df6c10011320489666be1c60d65e8, type: 2}
+--- !u!114 &-748014180991673528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.f3b44411
+  m_EditorClassIdentifier: 
+  id: f3b44411496e233479ebb9a9f1a4fb3c
+  position: {x: 1493.7999, y: 770}
+  nextNodes:
+  - 7692fcfc072197b4383736f06ab37c5e
+  chapter: {fileID: 11400000, guid: 51749bfbafb039c43a6f576a6859ee7e, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c243d6803f4918bd02822bc04dd036, type: 3}
+  m_Name: Chapter_Episode 1_777f35
+  m_EditorClassIdentifier: 
+  book: {fileID: 11400000, guid: 3e2f88bf3d87d9e4eb73cf3118013d7f, type: 2}
+  chapterName: Episode 1
+  startNodeID: 2890f38d4967bd04ea06b60a1b8a008c
+  parentChapter: {fileID: 0}
+  nodes:
+  - {fileID: -5852766635431758375}
+  - {fileID: 3267694347932059436}
+  - {fileID: -3766148943811930247}
+  - {fileID: 19742017299361029}
+  - {fileID: -1603570309471399632}
+  - {fileID: -6676446176441000221}
+  - {fileID: -748014180991673528}
+  - {fileID: 3529108524099664285}
+  - {fileID: -6920406826131062100}
+--- !u!114 &19742017299361029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.7692fcfc
+  m_EditorClassIdentifier: 
+  id: 7692fcfc072197b4383736f06ab37c5e
+  position: {x: 2018.7999, y: 770}
+  nextNodes:
+  - 3140cad0f81b6b340850d64cb7bb084d
+  chapter: {fileID: 11400000, guid: 7a53fdeb55475fe45bafa8cfe0d782ca, type: 2}
+--- !u!114 &3267694347932059436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.88034d64
+  m_EditorClassIdentifier: 
+  id: 88034d642498a2449a5d8c9b6ecf02dc
+  position: {x: 549.0001, y: 769.9999}
+  nextNodes:
+  - 15942e5cd0b9a1f4dbcf1f4c4ca203b1
+  chapter: {fileID: 11400000, guid: 0343973c4126f18409b84cb58dfee0c5, type: 2}
+--- !u!114 &3529108524099664285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49251e6351614c42a425c6b0c3fd897a, type: 3}
+  m_Name: node.Entry.2890f38d
+  m_EditorClassIdentifier: 
+  id: 2890f38d4967bd04ea06b60a1b8a008c
+  position: {x: -406.2, y: 770}
+  nextNodes:
+  - 21a1f1cced102f24d8fd9529f8550ab9
