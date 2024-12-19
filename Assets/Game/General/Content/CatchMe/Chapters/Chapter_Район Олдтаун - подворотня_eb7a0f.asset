@@ -17,9 +17,9 @@ MonoBehaviour:
   nextNodes:
   - fe896f912ce3f8e43b8593f24489dbff
   actions: []
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: d3246aba227d4b54d9e655ba770895a6, type: 2}
   emotion:
-    rid: -2
+    rid: 6826494313025503239
   localized: "\u041E\u0444\u0438\u0446\u0435\u0440 \u0425\u0430\u0440\u043F\u0435\u0440,
     \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0443\u0441\u0438\u043B\u0435\u043D\u043D\u044B\u0439
     \u043F\u0430\u0442\u0440\u0443\u043B\u044C, \u0412\u044B \u044D\u0442\u043E \u0437\u043D\u0430\u0435\u0442\u0435.
@@ -30,8 +30,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 6826494313025503239
+      type: {class: EmotionReference, ns: Self.Story, asm: Self.Core.Story}
+      data:
+        emotion: 
 --- !u!114 &-8636977913300603459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,17 +248,19 @@ MonoBehaviour:
   nextNodes:
   - 221c37a35c7a68b4db51254dd4dc5c46
   actions: []
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: d3246aba227d4b54d9e655ba770895a6, type: 2}
   emotion:
-    rid: -2
+    rid: 6826494313025503238
   localized: "\u041F\u043E\u0447\u0435\u043C\u0443 \u0441\u0440\u0430\u0437\u0443
     \u043D\u0435 \u043E\u0433\u0440\u0430\u0434\u0438\u043B\u0438 \u043C\u0435\u0441\u0442\u043E
     \u043F\u0440\u0435\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u044F?"
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 6826494313025503238
+      type: {class: EmotionReference, ns: Self.Story, asm: Self.Core.Story}
+      data:
+        emotion: 
 --- !u!114 &-4519184057202902165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,9 +755,9 @@ MonoBehaviour:
   nextNodes:
   - 9d31cc5dac549a144a7833619a6e3b6d
   actions: []
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: d3246aba227d4b54d9e655ba770895a6, type: 2}
   emotion:
-    rid: -2
+    rid: 6826494313025503237
   localized: "\u0425\u043E\u0440\u043E\u0448\u043E \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0435,
     \u043E\u0444\u0438\u0446\u0435\u0440 \u0425\u0430\u0440\u043F\u0435\u0440. \u0421\u0440\u0430\u0437\u0443
     \u0441\u043E\u043E\u0431\u0449\u0438\u0442\u044C \u0438 \u043E\u0433\u0440\u0430\u0434\u0438\u0442\u044C
@@ -761,8 +765,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 6826494313025503237
+      type: {class: EmotionReference, ns: Self.Story, asm: Self.Core.Story}
+      data:
+        emotion: 
 --- !u!114 &5835493546403104822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,9 +896,9 @@ MonoBehaviour:
   nextNodes:
   - b4fb149f4f8609f4ab1f1959c4fa9215
   actions: []
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: d3246aba227d4b54d9e655ba770895a6, type: 2}
   emotion:
-    rid: -2
+    rid: 6826494313025503240
   localized: "\u0414\u0435\u0439\u0432, \u0442\u044B \u043D\u0435\u0432\u044B\u043D\u043E\u0441\u0438\u043C.
     \u041E\u0442\u0447\u0438\u0442\u0430\u0435\u043C\u0441\u044F \u0448\u0435\u0444\u0443,
     \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u043C \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044E,
@@ -901,8 +907,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 6826494313025503240
+      type: {class: EmotionReference, ns: Self.Story, asm: Self.Core.Story}
+      data:
+        emotion: 
 --- !u!114 &8127921916403666070
 MonoBehaviour:
   m_ObjectHideFlags: 0

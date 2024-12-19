@@ -197,7 +197,21 @@ MonoBehaviour:
   m_Name: "Book_\u041F\u043E\u0439\u043C\u0430\u0439 \u043C\u0435\u043D\u044F"
   m_EditorClassIdentifier: 
   bookName: "\u041F\u043E\u0439\u043C\u0430\u0439 \u043C\u0435\u043D\u044F"
-  characters: []
+  characters:
+  - {fileID: 11400000, guid: e07ed8de36ac7b64c8334aa80ead49ec, type: 2}
+  - {fileID: 11400000, guid: cb6a97e7166486c4495b01efeaf2a7a5, type: 2}
+  - {fileID: 11400000, guid: ac031314a18b22f4b8c785b8b6554f4d, type: 2}
+  - {fileID: 11400000, guid: 786899aabc35fbe41af5e3650ec5b5f6, type: 2}
+  - {fileID: 11400000, guid: d001674a81b82364d82c34742bcacd0b, type: 2}
+  - {fileID: 11400000, guid: 89dfc208c9ddbcf4598a8f705513f488, type: 2}
+  - {fileID: 11400000, guid: f75cc57d9d474bf42b06129b2475e58f, type: 2}
+  - {fileID: 11400000, guid: 0dc9fe05a37999443b40ca0dbc09b105, type: 2}
+  - {fileID: 11400000, guid: e777148b251f58f41905f4874b00d9f5, type: 2}
+  - {fileID: 11400000, guid: 55f5bd50d18e18c4fa9e36057681ffb7, type: 2}
+  - {fileID: 11400000, guid: af59459cdcd199d4d891f5814e2a555c, type: 2}
+  - {fileID: 11400000, guid: 443f6c1140df62246b6f95ce45a8c0b7, type: 2}
+  - {fileID: 11400000, guid: db8ee77e4c7502440bb1f50e1745eea7, type: 2}
+  - {fileID: 11400000, guid: d3246aba227d4b54d9e655ba770895a6, type: 2}
   variables: {fileID: -3195925491066308792}
 --- !u!114 &23450268646180075
 MonoBehaviour:

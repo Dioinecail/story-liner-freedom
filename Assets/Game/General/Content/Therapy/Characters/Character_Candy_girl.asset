@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Candy_girl
   characterIcon: {fileID: 0}
-  isMainCharacter: 0
+  isMainCharacter: 1
   emotions: []

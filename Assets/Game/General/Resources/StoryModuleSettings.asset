@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: StoryModuleSettings
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
-  testChapter: {fileID: 11400000, guid: 39b613478d35b4048adee16d8de148d3, type: 2}
+  testChapter: {fileID: 11400000, guid: 33478c2013be9f840a7ae544fa10ff16, type: 2}

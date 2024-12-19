@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9cb9112ee52f284d8b55def3af857d1, type: 3}
-  m_Name: Character_Wash_girl
+  m_Name: "Character_\u0414\u0435\u0442\u0435\u043A\u0442\u0438\u0432 \u042E\u043D\u0433"
   m_EditorClassIdentifier: 
-  characterName: Wash_girl
-  characterIcon: {fileID: 0}
-  isMainCharacter: 1
+  characterName: "\u0414\u0435\u0442\u0435\u043A\u0442\u0438\u0432 \u042E\u043D\u0433"
+  characterIcon: {fileID: 21300000, guid: eee3cd7360cf358488bb865d5dd9bf14, type: 3}
+  isMainCharacter: 0
   emotions: []
