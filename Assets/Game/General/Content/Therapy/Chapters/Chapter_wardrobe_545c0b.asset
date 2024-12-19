@@ -48,7 +48,7 @@ MonoBehaviour:
   id: 63991e6c1093c62459ee365b12d25c2d
   position: {x: 3989.4155, y: 750}
   nextNodes:
-  - 4746fc81abbec55478ca323563e26d4c
+  - 5bdde26ae16f00143803a726c2ca4d55
   tag: 
   TargetNode: 
 --- !u!114 &-7885190930824928474
