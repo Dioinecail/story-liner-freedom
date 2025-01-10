@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6902541258641463030
+--- !u!114 &-351060880977232903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49251e6351614c42a425c6b0c3fd897a, type: 3}
-  m_Name: node.Entry.7ef2fac0
+  m_Name: node.Entry.ec801845
   m_EditorClassIdentifier: 
-  id: 7ef2fac0c499b254083100cd31aeab90
+  id: ec801845f4e98f04ba2603727097078b
   position: {x: 3.4028235e+38, y: 3.4028235e+38}
   nextNodes:
   - 
@@ -26,16 +26,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19c243d6803f4918bd02822bc04dd036, type: 3}
-  m_Name: "Chapter_\u042D\u043F\u0438\u0437\u043E\u0434 2_cbe074"
+  m_Name: "Chapter_\u042D\u043F\u0438\u0437\u043E\u0434 2_d3d4fe"
   m_EditorClassIdentifier: 
   book: {fileID: 11400000, guid: c3cb83d02a3880649a1a50ee983f8573, type: 2}
   chapterName: "\u042D\u043F\u0438\u0437\u043E\u0434 2"
-  startNodeID: 7ef2fac0c499b254083100cd31aeab90
+  startNodeID: ec801845f4e98f04ba2603727097078b
   parentChapter: {fileID: 0}
   nodes:
-  - {fileID: -6902541258641463030}
-  - {fileID: 3249000016303701112}
---- !u!114 &3249000016303701112
+  - {fileID: -351060880977232903}
+  - {fileID: 4613962767823054071}
+--- !u!114 &4613962767823054071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51d3f003fe7946c39819a92296140114, type: 3}
-  m_Name: node.Exit.9d0ed9fa
+  m_Name: node.Exit.673e4948
   m_EditorClassIdentifier: 
-  id: 9d0ed9fad75c17740876349574bdc59e
+  id: 673e4948ee01cb14c98c13bab83e8577
   position: {x: 500, y: 0}
   nextNodes: []
   tag: 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Character_Administrator
   m_EditorClassIdentifier: 
   characterName: Administrator
-  characterIcon: {fileID: 21300000, guid: 47ea2f369ed72564ea9429b517d00edf, type: 3}
+  characterIcon: {fileID: 21300000, guid: f12fe34e17bfdf547a44062cc8ad5bba, type: 3}
   isMainCharacter: 0
   emotions: []

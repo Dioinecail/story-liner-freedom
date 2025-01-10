@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Character_Flowers_girl
   m_EditorClassIdentifier: 
   characterName: Flowers_girl
-  characterIcon: {fileID: 21300000, guid: 6c742adee522eca42a6be7f3fb3f912b, type: 3}
+  characterIcon: {fileID: 21300000, guid: 00244c898d7322b47bcb28a7b5845983, type: 3}
   isMainCharacter: 1
   emotions: []
