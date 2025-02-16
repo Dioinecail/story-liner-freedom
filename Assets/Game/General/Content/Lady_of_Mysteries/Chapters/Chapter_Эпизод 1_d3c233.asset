@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5358179773085368192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d3f003fe7946c39819a92296140114, type: 3}
+  m_Name: node.Exit.629dbe70
+  m_EditorClassIdentifier: 
+  id: 629dbe7093acb6b40a738f35da0c82b7
+  position: {x: 3358.8, y: 280}
+  nextNodes: []
+  tag: 
+  TargetNode: 
+--- !u!114 &-4560004798022295154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49251e6351614c42a425c6b0c3fd897a, type: 3}
+  m_Name: node.Entry.1d62b468
+  m_EditorClassIdentifier: 
+  id: 1d62b468d735a734bbcdb9cc08eac414
+  position: {x: -546.2, y: 280}
+  nextNodes:
+  - 5f95359e94ce5c54ca6779a288becc71
+--- !u!114 &-4165003225341031764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.5f95359e
+  m_EditorClassIdentifier: 
+  id: 5f95359e94ce5c54ca6779a288becc71
+  position: {x: -46.2, y: 280}
+  nextNodes:
+  - 9ce2d9d212c140d44a46d5620e4298cb
+  chapter: {fileID: 11400000, guid: 13b32a69c9d553545affd4269a19c723, type: 2}
+--- !u!114 &-4033455640537537385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.18f96a44
+  m_EditorClassIdentifier: 
+  id: 18f96a44124519d40b4108138e8f4362
+  position: {x: 2368.8, y: 280}
+  nextNodes:
+  - 290a2f69257923e47b8853cdbbab0c7b
+  chapter: {fileID: 11400000, guid: 4119c852a2f4ae8478e0c53620c43f89, type: 2}
+--- !u!114 &-2742399033784310337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.290a2f69
+  m_EditorClassIdentifier: 
+  id: 290a2f69257923e47b8853cdbbab0c7b
+  position: {x: 2858.8, y: 280}
+  nextNodes:
+  - 629dbe7093acb6b40a738f35da0c82b7
+  chapter: {fileID: 11400000, guid: 7494b66851315f04f91c80e685de6463, type: 2}
+--- !u!114 &-2437151340432376190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.0aefc570
+  m_EditorClassIdentifier: 
+  id: 0aefc570efa8a694a84e03ba1b716e60
+  position: {x: 898.8, y: 280}
+  nextNodes:
+  - 4d5338ec71f8cd1449638b4cfbeefdbe
+  chapter: {fileID: 11400000, guid: 1cb854eca1bf0cd45813d73db8398914, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c243d6803f4918bd02822bc04dd036, type: 3}
+  m_Name: "Chapter_\u042D\u043F\u0438\u0437\u043E\u0434 1_d3c233"
+  m_EditorClassIdentifier: 
+  book: {fileID: 11400000, guid: 4fee591d8a5ce3042bf863367ac27ffc, type: 2}
+  chapterName: "\u042D\u043F\u0438\u0437\u043E\u0434 1"
+  startNodeID: 1d62b468d735a734bbcdb9cc08eac414
+  parentChapter: {fileID: 0}
+  nodes:
+  - {fileID: -4165003225341031764}
+  - {fileID: -2437151340432376190}
+  - {fileID: 7638656362457300031}
+  - {fileID: 7538696579961174611}
+  - {fileID: -4033455640537537385}
+  - {fileID: -2742399033784310337}
+  - {fileID: 7905931058293706225}
+  - {fileID: -4560004798022295154}
+  - {fileID: -5358179773085368192}
+--- !u!114 &7538696579961174611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.9ce2d9d2
+  m_EditorClassIdentifier: 
+  id: 9ce2d9d212c140d44a46d5620e4298cb
+  position: {x: 443.8, y: 280}
+  nextNodes:
+  - 0aefc570efa8a694a84e03ba1b716e60
+  chapter: {fileID: 11400000, guid: ba32a850658b5194a85a7c153390dbe5, type: 2}
+--- !u!114 &7638656362457300031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.4d5338ec
+  m_EditorClassIdentifier: 
+  id: 4d5338ec71f8cd1449638b4cfbeefdbe
+  position: {x: 1388.7999, y: 280}
+  nextNodes:
+  - bdeaaf3dfbd5cb34a896309493bb4e72
+  chapter: {fileID: 11400000, guid: 59d07e4477130414eb204bc34d2a0436, type: 2}
+--- !u!114 &7905931058293706225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed892dd2fb54983b44b2f8535b39a1, type: 3}
+  m_Name: node.Chapter.bdeaaf3d
+  m_EditorClassIdentifier: 
+  id: bdeaaf3dfbd5cb34a896309493bb4e72
+  position: {x: 1878.7999, y: 280}
+  nextNodes:
+  - 18f96a44124519d40b4108138e8f4362
+  chapter: {fileID: 11400000, guid: d4243510daf7d364ca206813276ea1e7, type: 2}
